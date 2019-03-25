@@ -1,0 +1,40 @@
+html,
+body,
+#root,
+.room {
+  height: 100%;
+  margin: 10;
+  text-align: center;
+}
+
+.lit {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: gray;
+  color: white;
+}
+.pink {
+  background-color: pink;
+}
+
+button {
+  text-transform: capitalize;
+  background: none;
+  border: 2px solid black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 100px;
+  font-size: 25px;
+  position: relative;
+
+  transition: color 0.5s linear;
+  transition: background 0.5s linear;
+}
+button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+}
